@@ -9,3 +9,7 @@ def hello_world():
 @app.route('/')
 def homepage():
     return render_template('index.html')
+
+@app.route('/Aiganym')
+def aiganym():
+    return render_template('Aiganym.html')
