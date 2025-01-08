@@ -31,6 +31,6 @@ def papa():
 def greg():
     return render_template('Greg.html')
 
-@app.route('/Aari')
+@app.route('/Arai')
 def arai():
     return render_template('Arai.html')
