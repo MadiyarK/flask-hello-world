@@ -34,3 +34,7 @@ def greg():
 @app.route('/Arai')
 def arai():
     return render_template('Arai.html')
+
+@app.route('/Physics')
+def physics():
+    return render_template('Physics.html')
